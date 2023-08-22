@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ignacia Astrea</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+</head>
+<body>
+<!-- NavBar -->
+<nav class="navbar navbar-expand-lg mb-5" style="background-color: hsla(287, 84%, 80%, 0.334); color: slategray;">
+    <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">¿Quién soy?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Stack">¿Qué sé?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contacto">Contáctame</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Quién soy -->
+<div class="container mt-3 mb-5" id="About">
+    <div class="card border-0">
+        <div class="row">
+            <div class="col-md-3">
+                <img class="img-fluid rounded-circle" id="me" src="./img/me.jpg" alt="That's me">
+            </div>
+            <div class="col-md-9">
+                <div class="card-body">
+                    <p class="card-text text-center" id="bme">¡Hola! Soy Ignacia Astrea Padilla Parraguez.</p>
+                    <p class="card-text">Soy <b id="fdev">desarrolladora fullstack</b>. Tengo 32 años, profesora de Historia de profesión, pero gracias al curso de TalentoDigital
+                    aprendí diversas herramientas que me permitieron desarrollar una serie de proyectos pequeños, tanto dentro del curso como fuera de él, de forma personal.</p>
+                    <p class="card-text">Con música, tiempo, motivación e Internet, soy capaz de aprender lo que me proponga.</p>
+                    <p class="card-text">English speaker? I also do that! I hope to have soon a portfolio for English speakers.</p>
+                    <p class="card-text">Suficiente de mí, ¡veamos algunas de las cositas que he hecho!</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+
+<!-- Proyectos -->
+<div class="container text-center mt-5 mb-3" id="Proyectos">
+    <h2 class="text-center mt-2 mb-5" style="color: #353739;">Proyectos</h2>
+    <div class="card border-0">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card d-flex flex-fill">
+                    <img src="./img/scheduler.png" class="card-img-top" alt="Agenda">
+                    <h4 class="card-title text-center mt-2 mb-2" style="color: #353739;">Agenda de Horas</h4>
+                    <p class="card-text text-center mb-2">Un proyecto sencillo con HTML, CSS y JavaScript. Abre un modal para permitir la agenda de horas en un día y hora. Necesita backend, pero en su momento solo sabíamos hacer el front-end</p>
+                    <a href="https://github.com/NovaFugaz/Scheduler" class="btn btn-outline-success btn-sm">Código</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card d-flex flex-fill">
+                    <img src="./img/digimon.png" class="card-img-top" alt="Digimon">
+                    <h4 class="card-title text-center mt-2 mb-2" style="color: #353739;">Galería de Digimon</h4>
+                    <p class="card-text text-center mb-2">Proyecto final del segundo módulo que consume la API de Digimon y muestra la galería. Además, abre un offcanvas con una breve descripción del tipo del Digimon. Tiene un toggle para alternar modo oscuro.</p>
+                    <a href="https://github.com/NovaFugaz/Digimon0102" class="btn btn-outline-success btn-sm">Código</a> <a href="https://novafugaz.github.io/Digimon0102/" class="btn btn-outline-success btn-sm">¡Míralo aquí!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container text-center mt-5 mb-3">
+    <div class="card border-0">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card d-flex flex-fill">
+                    <img src="./img/json.png" class="card-img-top" alt="JSON2SRT">
+                    <h4 class="card-title text-center mt-2 mb-2" style="color: #353739;">JSON to SRT</h4>
+                    <p class="card-text text-center mb-2">Script de Python para convertir el JSON de las letras sincronizadas de Spotify a un archivo de subtítulos SubRip, SRT.</p>
+                    <a href="https://github.com/NovaFugaz/miniature-potato" class="btn btn-outline-success btn-sm">Código</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card d-flex flex-fill">
+                    <img src="./img/calc.png" class="card-img-top" alt="Digimon">
+                    <h4 class="card-title text-center mt-2 mb-2" style="color: #353739;">Calculadora de Tiempo</h4>
+                    <p class="card-text text-center mb-2">En mi tiempo libre modero comunidades de speedruns y me era necesaria una opción más fiable que Excel para calcular tiempos, así que escribí esto y añadí la función para exportar los splits a CSV.</p>
+                    <a href="https://github.com/NovaFugaz/timecalc" class="btn btn-outline-success btn-sm">Código</a> <a href="https://novafugaz.github.io/timecalc/" class="btn btn-outline-success btn-sm">¡Míralo aquí!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container text-center mt-5 mb-3">
+    <div class="card border-0">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card d-flex flex-fill">
+                    <img src="./img/json.png" class="card-img-top" alt="JSON2SRT">
+                    <h4 class="card-title text-center mt-2 mb-2" style="color: #353739;">QR Code Component</h4>
+                    <p class="card-text text-center mb-2">Reto 1 de Frontend Mentor. Hecho con CSS3 y HTML5.</p>
+                    <a href="https://github.com/NovaFugaz/QR-code-component-challenge" class="btn btn-outline-success btn-sm">Código</a>
+                    <a href="https://novafugaz.github.io/QR-code-component-challenge/" class="btn btn-outline-success btn-sm">¡Míralo aquí!</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card d-flex flex-fill">
+                    <img src="./img/advice.png" class="card-img-top" alt="Digimon">
+                    <h4 class="card-title text-center mt-2 mb-2" style="color: #353739;">Advice App Generator</h4>
+                    <p class="card-text text-center mb-2">Otro reto de Frontend Mentor. Hecho con React, consume una API usando axios. Fue mi primer acercamiento a esa herramienta.</p>
+                    <a href="https://github.com/NovaFugaz/advice-gen-app" class="btn btn-outline-success btn-sm">Código</a> <a href="https://novafugaz.github.io/advice-gen-app/" class="btn btn-outline-success btn-sm">¡Míralo aquí!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Qué sé -->
+<div class="container text-center mt-5 mb-3 " id="Stack">
+    <h2 class="text-center mt-2 mb-5" style="color: #353739;">¿Qué sé?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card border-0">
+                    <h4 class="card-title">Habilidades Técnicas</h4>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0">
+                    <h4 class="card-title">Actualmente aprendiendo</h4>
+                    <ul>
+                        <li>React</li>
+                        <li>11ty</li>
+                        <li>Node.js</li>
+                        <li>MongoDB</li>
+                        <li>Django REST</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0">
+                    <h4 class="card-title">Herramientas</h4>
+                    <ul>
+                        <li>VS Code</li>
+                        <li>Git Bash</li>
+                        <li>DBeaver</li>
+                        <li>Github</li>
+                        <li>pgAdmin4</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</div>
+
+<!-- Contacto -->
+
+<div class="container justify-content-center" id="Contacto">
+    <p> Si te interesa contactarme, por favor, ¡adelante! Mi correo es ignaciastrea@outlook.com</p>
+    <p> Si quieres ver mis proyectos, siéntete libre de hacerlo. Mi Github es NovaFugaz.</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
